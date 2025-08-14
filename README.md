@@ -1,2 +1,2 @@
-# jinnyflamin.github.io
+# Portfolio
 Portfolio
