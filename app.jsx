@@ -240,8 +240,17 @@ const Portfolio = () => {
                 >
                 Download Resume
             </button>
-
-
+              </div>
+              <div className="flex space-x-4 mt-8">
+                <a href="https://www.linkedin.com/in/jinny-flamin-oliver-752825244/" className="social-icon">
+                  <Linkedin size={24} />
+                </a>
+                <a href="#" className="social-icon">
+                  <Github size={24} />
+                </a>
+                <a href="#" className="social-icon">
+                  <ExternalLink size={24} />
+                </a>
               </div>
             </div>
             <div className="relative">
@@ -482,3 +491,4 @@ const Portfolio = () => {
 // Render the app
 
 ReactDOM.render(<Portfolio />, document.getElementById('root'));
+
