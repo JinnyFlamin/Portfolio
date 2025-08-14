@@ -256,7 +256,7 @@ const Portfolio = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto gradient-bg-blue rounded-full flex items-center justify-center pulse-blue">
                 <div className="w-72 h-72 bg-black rounded-full flex items-center justify-center">
-                  <div className="text-6xl "><img src="Assets/Jinny_img.png"  height={250} width={250}/></div>
+                  <div className="text-6xl "><img src="Assets/jinny_img.png"  height={250} width={250}/></div>
                 </div>
               </div>
               <div className="absolute inset-0 gradient-bg-hero rounded-full blur-3xl"></div>
@@ -491,4 +491,5 @@ const Portfolio = () => {
 // Render the app
 
 ReactDOM.render(<Portfolio />, document.getElementById('root'));
+
 
